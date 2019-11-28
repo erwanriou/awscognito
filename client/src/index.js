@@ -24,6 +24,7 @@ switch (process.env.NODE_ENV) {
     store = createStore(reducer, composeWithDevTools(middleware))
 }
 
+// RENDER APP
 ReactDOM.render(
   <Provider store={store}>
     <Router>
