@@ -16,7 +16,9 @@
     "compression": "^1.7.4",
     "concurrently": "^5.0.0",
     "express": "^4.17.1",
-    "helmet": "^3.21.2"
+    "helmet": "^3.21.2",
+    "passport": "^0.4.0",
+    "passport-cognito-oauth2": "^0.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
