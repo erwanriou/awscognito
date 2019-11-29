@@ -18,7 +18,7 @@
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "passport": "^0.4.0",
-    "passport-cognito-oauth2": "^0.1.1"
+    "passport-cognito": "^0.1.13"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"

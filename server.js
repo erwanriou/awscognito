@@ -16,7 +16,6 @@ const server = http.Server(app)
 const routes = require("./routes")
 
 // Import Strategies
-require("./services/passportJwt")(passport)
 require("./services/passportCognito")(passport)
 
 // Apply Middleware
